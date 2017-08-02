@@ -18,6 +18,7 @@ public class MainActivity extends TabActivity {
 
         Resources ressources = getResources();
         TabHost tabHost = getTabHost();
+        //hello david
 
         // Android tab
         Intent intentAndroid = new Intent().setClass(this, timeActivity.class);
