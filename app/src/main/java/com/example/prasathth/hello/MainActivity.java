@@ -4,13 +4,42 @@ import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TabHost;
+import android.widget.TextView;
 
 /**
  * Created by prasathth on 8/2/17.
  */
 
+
+/*
+@Override
+public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        }
+
+private OnClickListener onClick() {
+        return new OnClickListener() {
+
+@Override
+public void onClick(View v) {
+        mLayout.addView(createNewTextView(mEditText.getText().toString()));
+        }
+        };
+        }
+*/
+
+
+
+
+
 public class MainActivity extends TabActivity {
+
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +47,7 @@ public class MainActivity extends TabActivity {
 
         Resources ressources = getResources();
         TabHost tabHost = getTabHost();
-        //hello david
+        //hello bilal
 
         // Android tab
         Intent intentAndroid = new Intent().setClass(this, timeActivity.class);
